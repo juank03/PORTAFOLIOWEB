@@ -1,0 +1,76 @@
+.contacto__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto__perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.contacto__frase {
+  background: linear-gradient(45deg, #36d9df, #4c5c68);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 25px;
+}
+
+.contacto {
+  text-align: center;
+  padding: 30px;
+  background-color: #131212;
+  color: #fff;
+}
+
+.contacto__content {
+  margin-bottom: 30px;
+}
+
+.contacto h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.contacto__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.contacto__item {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.contacto__item svg {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.contacto__item svg.whatsapp-icon {
+  color: green;
+  font-size: 32px;
+}
+
+.contacto__icono {
+  color: #fff;
+}
+
+.contacto__footer svg {
+  color: #fff;
+  font-size: 32px;
+}

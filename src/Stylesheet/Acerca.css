@@ -1,0 +1,27 @@
+.acerca {
+    text-align: center;
+  }
+  
+  .acerca h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff; 
+  }
+  
+  .acerca p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .me {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff; 
+    background-color: #1c9199;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }

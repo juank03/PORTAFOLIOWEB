@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+      margin: 0 auto;
+      max-width: 100%; 
+      padding: 0 20px; 
+  }
+  
+  .personal-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .personal-data__image {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+  }
+  
+  .personal-data__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .personal-data__name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .personal-data__title {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  
+  .personal-data__separator {
+    width: 100%;
+    margin: 2rem 0;
+    border: none;
+    border-top: 3px solid #ffffff;
+  }
+  
+  .personal-data__block {
+    margin-bottom: 1rem;
+  }
+  
+  .personal-data__block-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .personal-data__block-value {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+  
+  .icons svg:hover {
+    color: gold;
+  }
+  
